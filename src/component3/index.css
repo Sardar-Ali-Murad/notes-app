@@ -1,0 +1,42 @@
+.plus{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.side-main{
+    width: 300px;
+    background-color: rgba(0, 0, 0, .3);
+    height: 100vh;
+    position: sticky;
+    top: 0px;
+    bottom: 0px;
+    overflow-y: scroll;
+}
+
+.plus-icon{
+    cursor: pointer;
+    margin-top: 5px;
+    font-size: 20px;
+}
+
+.single-note{
+    background: gray;
+color: white;
+padding: 17px;
+margin-top: 20px;
+display: flex;
+justify-content: space-around;
+}
+
+.single-note p{
+    color: white;
+}
+
+.active-note{
+  background-color: green;
+}
+
+.text{
+    min-height: 60vh;
+}
